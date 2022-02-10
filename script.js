@@ -13,7 +13,7 @@ const routes = {
 };
 
 const handleLocation = async () => {
-  const path  = window.location.pathname;
+  const path  = "/TestPageGA4" + window.location.pathname;
   const route = routes[path] || routes["/TestPageGA4/404"];
   const html = await fetch(route).then((data) => data.text());
   document.getElementById("main-page").innerHTML = html;
