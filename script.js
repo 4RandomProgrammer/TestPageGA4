@@ -15,6 +15,7 @@ const routes = {
 const handleLocation = async () => {
   let path  = window.location.pathname;
   const route = routes[path] || routes[404];
+  console.log(`route: ${route}, path: ${path}`):
   const html = await fetch(route).then((data) => data.text());
   document.getElementById("main-page").innerHTML = html;
 };
