@@ -12,6 +12,7 @@ const routes = {
   "/TestPageGA4/lorem": "pages/lorem.html",
   "/TestPageGA4/form": "pages/form.html",
   "/TestPageGA4/videos": "pages/videos.html",
+  "/TestPageGA4/scroll": "pages/scroll.html",
 };
 
 const handleLocation = async () => {
