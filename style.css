@@ -70,3 +70,33 @@ textarea{
   border: 2px solid rgba(30,85,250,0.47);
   background-color: #fff;
 }
+
+
+.block{
+  height:75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  flex-direction: column;
+}
+
+.color1 {
+  background: #f0932b;
+}
+
+.color2 {
+  background: #eb4d4b;
+}
+
+.color3 {
+  background: #7ed6df;
+}
+
+.color4 {
+  background: #22a6b3;
+}
+
